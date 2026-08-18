@@ -73,9 +73,14 @@ L'ordre du tableau `articles` est l'ordre d'affichage. Il suit aujourd'hui
 l'ordre des questions qu'on se pose : ce qu'est un VPN, ce qu'est un profil, où
 en obtenir un, comment l'ajouter, ce que l'app collecte.
 
-Retirer une entrée la fait disparaître de l'app, sans autre effet. Une exception
-à connaître : `what-we-collect` est aussi atteignable depuis la déclaration de
-collecte de données, par un lien qui vit dans l'app et pas ici. Retirer l'entrée
-de ce fichier la sort de la liste d'aide mais laisse ce lien-là fonctionner,
-c'est voulu, il répond à une obligation App Store et ne doit pas pouvoir
-disparaître par une modification en ligne.
+Retirer une entrée la fait disparaître de l'app, sans autre effet. Une seule
+exception, et elle mérite d'être connue avant de toucher au fichier :
+
+**`what-we-collect` est la seule entrée que l'app désigne par son nom.** Elle
+sert deux fois : dans la liste d'aide comme les autres, et derrière le « en
+savoir plus » de la déclaration de collecte de données, l'écran qui s'impose
+avant que le VPN puisse être activé. Changer son titre, sa couleur ou son
+adresse est sans danger, les deux endroits suivent. Mais **changer son `id` ou
+retirer l'entrée fait disparaître ce lien-là**, et la déclaration se présente
+alors sans « en savoir plus ». Elle reste complète et lisible, c'est prévu,
+mais autant le faire exprès plutôt que par accident.

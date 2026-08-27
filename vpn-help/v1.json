@@ -6,7 +6,7 @@
       "id": "what-is-vpn",
       "symbol": "shield.lefthalf.filled",
       "tint": "#5B8DEF",
-      "url": "https://www.swiptv.app/help/what-is-a-vpn",
+      "url": "https://www.swiptv.app/blog/what-is-a-vpn",
       "title": {
         "en": "What is a VPN",
         "nl": "Wat is een VPN",
@@ -46,7 +46,7 @@
       "id": "what-is-profile",
       "symbol": "doc.text",
       "tint": "#7C5CFF",
-      "url": "https://www.swiptv.app/help/what-is-a-wireguard-profile",
+      "url": "https://www.swiptv.app/blog/what-is-a-wireguard-profile",
       "title": {
         "en": "What is a WireGuard profile",
         "nl": "Wat is een WireGuard-profiel",
@@ -86,7 +86,7 @@
       "id": "where-to-get",
       "symbol": "globe",
       "tint": "#5B8DEF",
-      "url": "https://www.swiptv.app/help/where-to-get-a-configuration",
+      "url": "https://www.swiptv.app/blog/where-to-get-a-configuration",
       "title": {
         "en": "Where to get a configuration",
         "nl": "Waar je een configuratie vindt",
@@ -126,7 +126,7 @@
       "id": "how-to-add",
       "symbol": "plus.circle",
       "tint": "#33B27B",
-      "url": "https://www.swiptv.app/help/how-to-add-a-profile",
+      "url": "https://www.swiptv.app/blog/how-to-add-a-profile",
       "title": {
         "en": "How to add a profile",
         "nl": "Een profiel toevoegen",
@@ -166,7 +166,7 @@
       "id": "what-we-collect",
       "symbol": "lock.shield",
       "tint": "#26A6B2",
-      "url": "https://www.swiptv.app/help/what-swiptv-collects",
+      "url": "https://www.swiptv.app/blog/what-swiptv-collects",
       "title": {
         "en": "What Swiptv collects",
         "nl": "Wat Swiptv verzamelt",

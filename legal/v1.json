@@ -1,12 +1,14 @@
 {
   "version": 1,
   "updated": "2026-09-09",
-  "policies": {
-    "privacy": {
+  "entries": [
+    {
+      "id": "privacy",
       "url": "https://www.swiptv.app/privacy-policy"
     },
-    "terms": {
+    {
+      "id": "terms",
       "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
     }
-  }
+  ]
 }

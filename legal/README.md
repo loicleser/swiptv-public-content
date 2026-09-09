@@ -20,24 +20,26 @@ navigateur, affiche un code que le téléphone lit d'un coup d'appareil photo.
 {
   "version": 1,
   "updated": "2026-09-09",
-  "policies": {
-    "privacy": { "url": "https://www.swiptv.app/privacy-policy" },
-    "terms":   { "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" }
-  }
+  "entries": [
+    { "id": "privacy", "url": "https://www.swiptv.app/privacy-policy" },
+    { "id": "terms",   "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" }
+  ]
 }
 ```
 
 `updated` n'est pas lu par l'app, il est là pour qu'on sache d'un coup d'œil
 quand le fichier a bougé pour la dernière fois.
 
+Chaque entrée de `entries` :
+
 | Champ | Obligatoire | Ce que c'est |
 |---|---|---|
-| `policies.privacy.url` | oui | La page de confidentialité. **Doit être en `https`.** |
-| `policies.terms.url` | oui | Les conditions d'utilisation. **Doit être en `https`.** |
+| `id` | oui | Identifiant de la page. L'app cherche `privacy` et `terms` par ce nom : ne pas les renommer. |
+| `url` | oui | La page sur le web. **Doit être en `https`.** |
 
 ## Ce que l'app refuse
 
 Le dépôt est public, donc l'app se méfie de ce qu'elle lit : une `url` absente
-ou qui n'est pas en `https` fait écarter l'entrée concernée, sans emporter
-l'autre. Sans réseau, l'app n'a aucune adresse à ouvrir et le dit à l'écran
+ou qui n'est pas en `https` fait écarter l'entrée concernée, sans emporter les
+autres. Sans réseau, l'app n'a aucune adresse à ouvrir et le dit à l'écran
 plutôt que de laisser un lien qui ne mène nulle part.

@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "updated": "2026-10-07",
+  "sections": [
+    {
+      "id": "players",
+      "title": {
+        "en": "Playback",
+        "fr": "Lecture",
+        "ar": "التشغيل",
+        "da": "Afspilning",
+        "de": "Wiedergabe",
+        "es": "Reproducción",
+        "he": "ניגון",
+        "it": "Riproduzione",
+        "nb": "Avspilling",
+        "nl": "Afspelen",
+        "pl": "Odtwarzanie",
+        "pt": "Reprodução",
+        "pt-BR": "Reprodução",
+        "sv": "Uppspelning",
+        "tr": "Oynatma"
+      },
+      "entries": [
+        {
+          "id": "ksplayer",
+          "name": "KSPlayer",
+          "url": "https://github.com/kingslay/KSPlayer"
+        },
+        {
+          "id": "vlckit",
+          "name": "VLCKit",
+          "url": "https://github.com/videolan/vlckit"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "title": {
+        "en": "Services",
+        "fr": "Services",
+        "ar": "الخدمات",
+        "da": "Tjenester",
+        "de": "Dienste",
+        "es": "Servicios",
+        "he": "שירותים",
+        "it": "Servizi",
+        "nb": "Tjenester",
+        "nl": "Diensten",
+        "pl": "Usługi",
+        "pt": "Serviços",
+        "pt-BR": "Serviços",
+        "sv": "Tjänster",
+        "tr": "Hizmetler"
+      },
+      "entries": [
+        {
+          "id": "tmdb",
+          "name": "TMDB",
+          "url": "https://www.themoviedb.org",
+          "description": {
+            "en": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+          }
+        },
+        {
+          "id": "opensubtitles",
+          "name": "OpenSubtitles",
+          "url": "https://www.opensubtitles.com"
+        },
+        {
+          "id": "trakt",
+          "name": "Trakt",
+          "url": "https://trakt.tv"
+        },
+        {
+          "id": "theintrodb",
+          "name": "TheIntroDB",
+          "url": "https://theintrodb.org"
+        }
+      ]
+    }
+  ]
+}

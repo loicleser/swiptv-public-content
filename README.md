@@ -16,6 +16,7 @@ Un dossier par besoin, un fichier par version de format.
 |---|---|---|
 | `vpn-help/` | Les fiches d'aide listées dans l'écran VPN des réglages | iPhone et Apple TV, depuis la v3.6 |
 | `legal/` | Les adresses des pages légales (confidentialité, CGU) de l'écran d'abonnement | iPhone et Apple TV |
+| `credits/` | La liste de l'écran « Crédits » des réglages, rangée par groupes | iPhone et Apple TV, depuis la v3.8.0 |
 
 Chaque dossier a son propre `README.md` qui décrit son format champ par champ.
 

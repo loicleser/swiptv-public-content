@@ -78,6 +78,78 @@
           "url": "https://theintrodb.org"
         }
       ]
+    },
+    {
+      "id": "libraries",
+      "title": {
+        "en": "Libraries",
+        "fr": "Bibliothèques",
+        "ar": "المكتبات",
+        "da": "Biblioteker",
+        "de": "Bibliotheken",
+        "es": "Bibliotecas",
+        "he": "ספריות",
+        "it": "Librerie",
+        "nb": "Biblioteker",
+        "nl": "Bibliotheken",
+        "pl": "Biblioteki",
+        "pt": "Bibliotecas",
+        "pt-BR": "Bibliotecas",
+        "sv": "Bibliotek",
+        "tr": "Kütüphaneler"
+      },
+      "entries": [
+        {
+          "id": "firebase",
+          "name": "Firebase",
+          "url": "https://firebase.google.com"
+        },
+        {
+          "id": "grdb",
+          "name": "GRDB",
+          "url": "https://github.com/groue/GRDB.swift"
+        },
+        {
+          "id": "gzipswift",
+          "name": "GzipSwift",
+          "url": "https://github.com/1024jp/GzipSwift"
+        },
+        {
+          "id": "kingfisher",
+          "name": "Kingfisher",
+          "url": "https://github.com/onevcat/Kingfisher"
+        },
+        {
+          "id": "marqueelabel",
+          "name": "MarqueeLabel",
+          "url": "https://github.com/cbpowell/MarqueeLabel"
+        },
+        {
+          "id": "parallaxview",
+          "name": "ParallaxView",
+          "url": "https://github.com/PGSSoft/ParallaxView"
+        },
+        {
+          "id": "traktkit",
+          "name": "TraktKit",
+          "url": "https://github.com/MaxHasADHD/TraktKit"
+        },
+        {
+          "id": "tvospicker",
+          "name": "TVOSPicker",
+          "url": "https://github.com/ViacomInc/TVOSPicker"
+        },
+        {
+          "id": "uiimagecolors",
+          "name": "UIImageColors",
+          "url": "https://github.com/jathu/UIImageColors"
+        },
+        {
+          "id": "wireguard",
+          "name": "WireGuard",
+          "url": "https://www.wireguard.com"
+        }
+      ]
     }
   ]
 }

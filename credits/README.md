@@ -5,6 +5,9 @@ lesquels Swiptv s'appuie, rangés par groupes. Chaque ligne ouvre la page du
 projet ; sur Apple TV, faute de navigateur, l'app affiche un code que le
 téléphone lit d'un coup d'appareil photo.
 
+L'app Android lit sa propre liste, `android-v1.json`, au même format : ses
+services et ses bibliothèques ne sont pas ceux de l'app Apple.
+
 ## Format
 
 `v1.json` :

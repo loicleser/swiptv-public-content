@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "updated": "2026-10-28",
+  "sections": [
+    {
+      "id": "services",
+      "title": {
+        "en": "Services",
+        "fr": "Services",
+        "ar": "الخدمات",
+        "da": "Tjenester",
+        "de": "Dienste",
+        "es": "Servicios",
+        "he": "שירותים",
+        "it": "Servizi",
+        "nb": "Tjenester",
+        "nl": "Diensten",
+        "pl": "Usługi",
+        "pt": "Serviços",
+        "pt-BR": "Serviços",
+        "sv": "Tjänster",
+        "tr": "Hizmetler"
+      },
+      "entries": [
+        {
+          "id": "tmdb",
+          "name": "TMDB",
+          "url": "https://www.themoviedb.org",
+          "description": {
+            "en": "This product uses the TMDB API but is not endorsed or certified by TMDB."
+          }
+        }
+      ]
+    },
+    {
+      "id": "libraries",
+      "title": {
+        "en": "Libraries",
+        "fr": "Bibliothèques",
+        "ar": "المكتبات",
+        "da": "Biblioteker",
+        "de": "Bibliotheken",
+        "es": "Bibliotecas",
+        "he": "ספריות",
+        "it": "Librerie",
+        "nb": "Biblioteker",
+        "nl": "Bibliotheken",
+        "pl": "Biblioteki",
+        "pt": "Bibliotecas",
+        "pt-BR": "Bibliotecas",
+        "sv": "Bibliotek",
+        "tr": "Kütüphaneler"
+      },
+      "entries": [
+        {
+          "id": "androidx",
+          "name": "Android Jetpack",
+          "url": "https://developer.android.com/jetpack"
+        },
+        {
+          "id": "coil",
+          "name": "Coil",
+          "url": "https://github.com/coil-kt/coil"
+        },
+        {
+          "id": "kotlinx-coroutines",
+          "name": "kotlinx.coroutines",
+          "url": "https://github.com/Kotlin/kotlinx.coroutines"
+        },
+        {
+          "id": "kotlinx-serialization",
+          "name": "kotlinx.serialization",
+          "url": "https://github.com/Kotlin/kotlinx.serialization"
+        },
+        {
+          "id": "okhttp",
+          "name": "OkHttp",
+          "url": "https://github.com/square/okhttp"
+        },
+        {
+          "id": "sqlite",
+          "name": "SQLite",
+          "url": "https://www.sqlite.org"
+        },
+        {
+          "id": "zxing",
+          "name": "ZXing",
+          "url": "https://github.com/zxing/zxing"
+        }
+      ]
+    }
+  ]
+}
